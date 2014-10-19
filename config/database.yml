@@ -14,12 +14,14 @@ default: &default
   encoding: utf8
   pool: 5
   username: root
-  password:
+  password: <%= ENV['VESSELS_RIP_DATABASE_PASSWORD'] %>
   socket: /tmp/mysql.sock
 
 development:
   <<: *default
   database: vessels_rip_development
+  username: <%= ENV['RAILS_DB_USER'] %>
+  password: <%= ENV['RAILS_DB_PASSWORD'] %>
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -27,6 +29,8 @@ development:
 test:
   <<: *default
   database: vessels_rip_test
+  username: <%= ENV['RAILS_DB_USER'] %>
+  password: <%= ENV['RAILS_DB_PASSWORD'] %>
 
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
