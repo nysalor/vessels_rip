@@ -34,6 +34,9 @@
 .DS_Store
 
 # Ignore rails_config settings
-config/settings.local.yml
-config/settings/*.local.yml
-config/environments/*.local.yml
+/config/settings.local.yml
+/config/settings/*.local.yml
+/config/environments/*.local.yml
+
+# Ignore secret keys
+/config/secrets.yml
