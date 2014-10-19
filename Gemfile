@@ -18,6 +18,8 @@ gem 'bootstrap3-datetimepicker-rails', '~> 3.1.3'
 gem 'meta-tags'
 gem 'kaminari'
 gem 'kaminari-i18n'
+gem 'twitter'
+gem "omniauth"
 
 gem 'unicorn'
 
