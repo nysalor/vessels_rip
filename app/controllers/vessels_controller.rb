@@ -1,0 +1,2 @@
+class VesselsController < ApplicationController
+end
