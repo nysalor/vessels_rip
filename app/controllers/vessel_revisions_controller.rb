@@ -1,0 +1,2 @@
+class VesselRevisionsController < ApplicationController
+end
