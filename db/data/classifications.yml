@@ -1,0 +1,6 @@
+- id: 1
+  name_ja: "戦艦"
+  name_en: "Battleship"
+- id: 2
+  name_ja: "航空母艦"
+  name_en: "Aircraft Carrier"

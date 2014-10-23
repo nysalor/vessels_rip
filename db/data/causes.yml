@@ -1,0 +1,6 @@
+- id: 1
+  description: "砲撃"
+- id: 2
+  description: "魚雷"
+- id: 3
+  description: "艦載機の攻撃"
