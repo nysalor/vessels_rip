@@ -1,14 +1,17 @@
 FactoryGirl.define do
   factory :vessel do
-    name_ja "MyString"
-name_en "MyString"
-type_name "MyString"
-class_name "MyString"
-sunk_at "2014-10-19 13:10:56"
-cause ""
-place_name ""
-latitude "9.99"
-longitude "9.99"
-  end
+    name_ja { Faker::Name.first_name }
+    name_en { Faker::Name.first_name }
+    type_name { Faker::Name.first_name }
+    sunk_at {
+      Time.zone.parse("1941-12-08 8:00:00 JST").since(rand(116_308_800))
+    }
+    place_name { Faker::Address.country }
+    latitude { Faker::Address.latitude }
+    longitude { Faker::Address.longitude }
 
+    association :user, factory: :user
+    association :cause, factory: :cause
+    association :classification, factory: :classification
+  end
 end
