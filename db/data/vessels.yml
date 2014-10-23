@@ -1,0 +1,10 @@
+- id: 1
+  name_ja: 瑞鳳
+  name_en: HIJMS Zuiho
+  type_name: 祥鳳型
+  sunk_at: '1944-10-25 15:26:00 JST'
+  place_name: エンガノ岬沖
+  latitude: 19.352611
+  longitude: 125.166378
+  classification_id: 2
+  cause_id: 3
