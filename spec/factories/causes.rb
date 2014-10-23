@@ -1,6 +1,5 @@
 FactoryGirl.define do
   factory :cause do
-    description "MyString"
+    description { Faker::Lorem.sentence }
   end
-
 end
