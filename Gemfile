@@ -20,6 +20,8 @@ gem 'kaminari'
 gem 'kaminari-i18n'
 gem 'twitter'
 gem "omniauth"
+gem 'sidekiq'
+gem 'sidetiq'
 
 gem 'unicorn'
 
@@ -61,4 +63,5 @@ group :test do
   gem 'terminal-notifier-guard'
   gem 'capybara'
   gem 'timecop'
+  gem 'rspec-sidekiq'
 end
