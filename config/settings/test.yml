@@ -1,0 +1,4 @@
+sidekiq:
+  redis:
+    url: 'redis://localhost:6379'
+    namespace: 'sidekiq'
