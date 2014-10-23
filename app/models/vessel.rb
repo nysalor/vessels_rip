@@ -48,7 +48,7 @@ class Vessel < ActiveRecord::Base
       {
         lat: latitude,
         long: longitude,
-        display_coordinate: true
+        display_coordinates: true
       }
     else
       {}
