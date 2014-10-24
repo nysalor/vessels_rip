@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+  resources :vessels, only: [:index, :show, :new, :edit]
+  resources :vessel_revisions, only: [:create] do
+    member do
+      get 'approve'
+    end
+  end
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

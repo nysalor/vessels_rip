@@ -1,4 +1,6 @@
 ja:
   messages:
     vessels:
-      tweet: '%{classification} %{name_ja}(%{name_en}) %{sunk_at} %{place} (%{latitude}, %{longitude}) で沈没。%{cause}による。%{link}'
+      tweet:
+        long: '%{classification} %{name_ja}(%{name_en}) %{sunk_at} %{place} (%{latitude}, %{longitude}) で沈没。%{cause}による。%{link}'
+        short: '%{classification} %{name_ja}(%{name_en}) %{sunk_at} %{place}で沈没。%{cause}による。'

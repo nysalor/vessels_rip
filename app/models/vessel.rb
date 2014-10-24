@@ -40,11 +40,15 @@ class Vessel < ActiveRecord::Base
   end
 
   def tweet_body
-    I18n.t 'messages.vessels.tweet', tweet_params
+    if has_location?
+      I18n.t 'messages.vessels.tweet.long', tweet_params
+    else
+      I18n.t 'messages.vessels.tweet.short', tweet_params
+    end
   end
 
   def tweet_statuses
-    if (latitude.present? && longitude.present?)
+    if has_location?
       {
         lat: latitude,
         long: longitude,
@@ -75,5 +79,9 @@ class Vessel < ActiveRecord::Base
 
   def map_url
     "http://maps.google.com/maps?q=#{coordinates}"
+  end
+
+  def has_location?
+    latitude.present? && longitude.present?
   end
 end
