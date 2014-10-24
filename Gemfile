@@ -23,6 +23,7 @@ gem "omniauth"
 gem 'sidekiq'
 gem 'sidetiq'
 
+gem 'therubyracer'
 gem 'unicorn'
 
 group :development, :test do
