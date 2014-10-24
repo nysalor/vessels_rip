@@ -19,6 +19,7 @@ gem 'meta-tags'
 gem 'kaminari'
 gem 'kaminari-i18n'
 gem 'twitter'
+gem 'oauth'
 gem "omniauth"
 gem 'sidekiq'
 gem 'sidetiq'
