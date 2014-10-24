@@ -1,6 +1,6 @@
 Sidekiq.configure_server do |config|
-  config.redis = Settings.sidekiq.redis
+  config.redis = { url: Settings.sidekiq.redis.url, namespace: Settings.sidekiq.redis.namespace }
 end
 Sidekiq.configure_client do |config|
-  config.redis = Settings.sidekiq.redis
+  config.redis = { url: Settings.sidekiq.redis.url, namespace: Settings.sidekiq.redis.namespace }
 end
