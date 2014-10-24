@@ -12,7 +12,7 @@ class Vessel < ActiveRecord::Base
   class << self
     def daily_reserve
       self.of_today(Time.zone.now).each do |vessel|
-        VesselWorker.perform_in vessel.since_from(Time.zone.now)
+        VesselWorker.perform_in vessel.since_from(Time.zone.now), vessel.id
       end
     end
   end
