@@ -1,10 +1,261 @@
-- id: 1
-  name_ja: 瑞鳳
+---
+- id: '1'
+  name_ja: "瑞鳳"
   name_en: HIJMS Zuiho
-  type_name: 祥鳳型
-  sunk_at: '1944-10-25 15:26:00 JST'
-  place_name: エンガノ岬沖
-  latitude: 19.352611
-  longitude: 125.166378
-  classification_id: 2
-  cause_id: 3
+  type_name: "祥鳳型"
+  place_name: "エンガノ岬沖"
+  latitude: '19.333333'
+  longitude: '125.25'
+  classification_id: '2'
+  cause_id: '3'
+  sunk_at: "1944/10/25 15:26:00 JST"
+- id: '2'
+  name_ja: "瑞鶴"
+  name_en: HIJMS Zuikaku
+  type_name: "翔鶴型"
+  place_name: "エンガノ岬沖"
+  latitude: '19.333333'
+  longitude: '125.85'
+  classification_id: '2'
+  cause_id: '3'
+  sunk_at: "1944/10/25 14:14:00 JST"
+- id: '3'
+  name_ja: "千歳"
+  name_en: HIJMS Chitose
+  type_name: "千歳型"
+  place_name: "エンガノ岬沖"
+  latitude: '19.333333'
+  longitude: '126.333333'
+  classification_id: '2'
+  cause_id: '3'
+  sunk_at: "1944/10/25 9:37:00 JST"
+- id: '4'
+  name_ja: "千代田"
+  name_en: HIJMS Chiyoda
+  type_name: "千歳型"
+  place_name: "エンガノ岬沖"
+  latitude: ''
+  longitude: ''
+  classification_id: '2'
+  cause_id: '1'
+  sunk_at: "1944/10/25 16:55:00 JST"
+- id: '5'
+  name_ja: "多摩"
+  name_en: HIJMS Tama
+  type_name: "球磨型"
+  place_name: "ルソン島沖"
+  latitude: '21.383333'
+  longitude: '127.316667'
+  classification_id: '4'
+  cause_id: '4'
+  sunk_at: "1944/10/25 23:01:00 JST"
+- id: '6'
+  name_ja: "初月"
+  name_en: HIJMS Hatsuzuki
+  type_name: "秋月型"
+  place_name: "エンガノ岬沖"
+  latitude: '20.4'
+  longitude: '126.33333'
+  classification_id: '5'
+  cause_id: '1'
+  sunk_at: "1944/10/25 20:59:00 JST"
+- id: '7'
+  name_ja: "秋月"
+  name_en: HIJMS Akizuki
+  type_name: "秋月型"
+  place_name: "エンガノ岬沖"
+  latitude: '20.483333'
+  longitude: '126.5'
+  classification_id: '5'
+  cause_id: '1'
+  sunk_at: "1944/10/25 8:59:00 JST"
+- id: '8'
+  name_ja: "武蔵"
+  name_en: HIJMS Musashi
+  type_name: "大和型"
+  place_name: "シブヤン海"
+  latitude: '13.116667'
+  longitude: '122.533333'
+  classification_id: '1'
+  cause_id: '3'
+  sunk_at: "1944/10/24 19:40:00 JST"
+- id: '9'
+  name_ja: "愛宕"
+  name_en: HIJMS Atago
+  type_name: "高雄型"
+  place_name: "パラワン水道"
+  latitude: '9.466667'
+  longitude: '117.283333'
+  classification_id: '3'
+  cause_id: '4'
+  sunk_at: "1944/10/23 6:53:00 JST"
+- id: '10'
+  name_ja: "摩耶"
+  name_en: HIJMS Maya
+  type_name: "高雄型"
+  place_name: "パラワン水道"
+  latitude: '9.45'
+  longitude: '117.383333'
+  classification_id: '3'
+  cause_id: '4'
+  sunk_at: "1944/10/23 7:05:00 JST"
+- id: '11'
+  name_ja: "鳥海"
+  name_en: HIJMS Chokai
+  type_name: "高雄型"
+  place_name: "サマール沖"
+  latitude: '11.366667'
+  longitude: '126.366667'
+  classification_id: '3'
+  cause_id: '8'
+  sunk_at: "1944/10/25 21:48 JST"
+- id: '12'
+  name_ja: "能代"
+  name_en: HIJMS Noshiro
+  type_name: "阿賀野型"
+  place_name: "サマール沖"
+  latitude: '11.7'
+  longitude: '121.683333'
+  classification_id: '4'
+  cause_id: '3'
+  sunk_at: "1944/10/26 11:13:00 JST"
+- id: '13'
+  name_ja: "鈴谷"
+  name_en: HIJMS Suzuya
+  type_name: "最上型"
+  place_name: "サマール沖"
+  latitude: '11.753333'
+  longitude: '126.186667'
+  classification_id: '3'
+  cause_id: '3'
+  sunk_at: "1944/10/25 13:20:00 JST"
+- id: '14'
+  name_ja: "筑摩"
+  name_en: HIJMS Chikuma
+  type_name: "利根型"
+  place_name: "サマール沖"
+  latitude: '11.416667'
+  longitude: '126.6'
+  classification_id: '3'
+  cause_id: '3'
+  sunk_at: "1944/10/25 16:40:00 JST"
+- id: '15'
+  name_ja: "野分"
+  name_en: HIJMS Nowaki
+  type_name: "陽炎型"
+  place_name: "サマール沖"
+  latitude: '13'
+  longitude: '124.9'
+  classification_id: '5'
+  cause_id: '2'
+  sunk_at: "1944/10/25 1:35:00 JST"
+- id: '16'
+  name_ja: "扶桑"
+  name_en: HIJMS Fuso
+  type_name: "扶桑型"
+  place_name: "スリガオ海峡"
+  latitude: ''
+  longitude: ''
+  classification_id: '1'
+  cause_id: '2'
+  sunk_at: "1944/10/25 3:10:00 JST"
+- id: '17'
+  name_ja: "山城"
+  name_en: HIJMS Yamashiro
+  type_name: "扶桑型"
+  place_name: "スリガオ海峡"
+  latitude: '10.36666666'
+  longitude: '125.35000000'
+  classification_id: '1'
+  cause_id: '2'
+  sunk_at: "1944/10/25 4:19:00 JST"
+- id: '18'
+  name_ja: "最上"
+  name_en: HIJMS Mogami
+  type_name: "最上型"
+  place_name: "スリガオ海峡"
+  latitude: '9.666667'
+  longitude: '124.833333'
+  classification_id: '3'
+  cause_id: '8'
+  sunk_at: "1944/10/25 13:07 JST"
+- id: '19'
+  name_ja: "山雲"
+  name_en: HIJMS Yamagumo
+  type_name: "朝潮型"
+  place_name: "スリガオ海峡"
+  latitude: '10.416667'
+  longitude: '125.383333'
+  classification_id: '5'
+  cause_id: '2'
+  sunk_at: "1944/10/25  JST"
+- id: '20'
+  name_ja: "満潮"
+  name_en: HIJMS Michishio
+  type_name: "朝潮型"
+  place_name: "スリガオ海峡"
+  latitude: '10.416667'
+  longitude: '125.383333'
+  classification_id: '5'
+  cause_id: '2'
+  sunk_at: "1944/10/25  JST"
+- id: '21'
+  name_ja: "朝雲"
+  name_en: HIJMS Asagumo
+  type_name: "朝潮型"
+  place_name: "スリガオ海峡"
+  latitude: '10.066667'
+  longitude: '125.35'
+  classification_id: '5'
+  cause_id: '2'
+  sunk_at: "1944/10/25  JST"
+- id: '22'
+  name_ja: "阿武隈"
+  name_en: HIJMS Abukuma
+  type_name: "長良型"
+  place_name: "ネグロス島沖"
+  latitude: '9.333333'
+  longitude: '122.533333'
+  classification_id: '4'
+  cause_id: '3'
+  sunk_at: "1944/10/26 11:42 JST"
+- id: '23'
+  name_ja: "若葉"
+  name_en: HIJMS Wakaba
+  type_name: "初春型"
+  place_name: "パナイ島沖"
+  latitude: '11.833333'
+  longitude: '121.416667'
+  classification_id: '5'
+  cause_id: '3'
+  sunk_at: "1944/10/24  JST"
+- id: '24'
+  name_ja: "鬼怒"
+  name_en: HIJMS Kinu
+  type_name: "長良型"
+  place_name: "パナイ島沖"
+  latitude: '11.75'
+  longitude: '123.183333'
+  classification_id: '4'
+  cause_id: '3'
+  sunk_at: "1944/10/26 17:30 JST"
+- id: '25'
+  name_ja: "浦波"
+  name_en: HIJMS Uranami
+  type_name: "吹雪型"
+  place_name: "パナイ島沖"
+  latitude: '11.833333'
+  longitude: '123'
+  classification_id: '5'
+  cause_id: '3'
+  sunk_at: "1944/10/26 12:24:00 JST"
+- id: '26'
+  name_ja: "藤波"
+  name_en: HIJMS Fujinami
+  type_name: "夕雲型"
+  place_name: "シブヤン海"
+  latitude: '12'
+  longitude: '122.5'
+  classification_id: '5'
+  cause_id: '3'
+  sunk_at: "1944/10/27 09:15:00 JST"

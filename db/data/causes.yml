@@ -1,6 +1,16 @@
 - id: 1
-  description: "砲撃"
+  description: "水上砲撃戦"
 - id: 2
-  description: "魚雷"
+  description: "水上魚雷戦"
 - id: 3
   description: "艦載機の攻撃"
+- id: 4
+  description: "潜水艦の攻撃"
+- id: 5
+  description: "原因不明の爆発"
+- id: 6
+  description: "自沈"
+- id: 7
+  description: "砲撃処分"
+- id: 8
+  description: "雷撃処分"
