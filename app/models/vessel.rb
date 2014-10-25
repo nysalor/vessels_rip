@@ -70,7 +70,7 @@ class Vessel < ActiveRecord::Base
       classification: classification.name_ja,
       name_ja: name_ja,
       name_en: name_en,
-      sunk_at: I18n.l(sunk_at.to_date, format: :long),
+      sunk_at: I18n.l(sunk_at, format: :middle),
       place: place_name,
       latitude: latitude,
       longitude: longitude,
