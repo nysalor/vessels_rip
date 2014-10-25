@@ -12,7 +12,9 @@ class Vessel < ActiveRecord::Base
   class << self
     def daily_reserve
       self.of_today(Time.zone.now).each do |vessel|
-        VesselWorker.perform_in vessel.since_from(Time.zone.now), vessel.id
+        if vessel.sunk_at_today > Time.zone.now
+          VesselWorker.perform_at vessel.sunk_at_today, vessel.id
+        end
       end
     end
   end
@@ -28,7 +30,11 @@ class Vessel < ActiveRecord::Base
   end
 
   def since_from(datetime)
-    Time.zone.local(datetime.year, sunk_month, sunk_day, sunk_hour, sunk_min, sunk_sec) - datetime
+    sunk_at_today - datetime
+  end
+
+  def sunk_at_today
+    Time.local Time.zone.now.year, sunk_month, sunk_day, sunk_hour, sunk_min, sunk_sec
   end
 
   def tweet!

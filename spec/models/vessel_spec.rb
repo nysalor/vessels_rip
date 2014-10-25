@@ -22,4 +22,29 @@ RSpec.describe Vessel, :type => :model do
   it "since_fromで現在時刻との秒数差が返ること" do
     expect(vessel.since_from(current_time)).to eq(15420)
   end
+
+  it "sunk_at_todayで今日の同時刻を返すこと" do
+    Timecop.freeze(current_time)
+    expect(vessel.sunk_at_today).to eq(Time.zone.parse('2014-10-25 14:17:00 JST'))
+    Timecop.return
+  end
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
