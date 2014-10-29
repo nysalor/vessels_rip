@@ -5,5 +5,6 @@ class VesselWorker
   def perform(id)
     @vessel = Vessel.find id
     @vessel.tweet!
+    logger.info "Vessel #{id} tweeted."
   end
 end
