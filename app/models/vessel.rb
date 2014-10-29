@@ -13,9 +13,14 @@ class Vessel < ActiveRecord::Base
     def daily_reserve
       self.of_today(Time.zone.now).each do |vessel|
         if vessel.sunk_at_today > Time.zone.now
-          VesselWorker.perform_at vessel.sunk_at_today, vessel.id
+          job = VesselWorker.perform_at vessel.sunk_at_today, vessel.id
+          logger.info "job #{job} (id: #{vessel.id}) will be performed at #{vessel.sunk_at_today}"
         end
       end
+    end
+
+    def daily_list
+      all
     end
   end
 

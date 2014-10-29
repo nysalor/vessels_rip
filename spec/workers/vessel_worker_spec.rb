@@ -8,7 +8,7 @@ describe VesselWorker do
     subject.perform vessel.id
   end
 
-  it "reserve_tweetでjobがqueueに入ること" do
+  it "performでjobがqueueに入ること" do
     is_expected.to be_processed_in(:tweet)
   end
 end
