@@ -259,3 +259,23 @@
   classification_id: '5'
   cause_id: '3'
   sunk_at: "1944/10/27 09:15:00 JST"
+- id: '27'
+  name_ja: "金剛"
+  name_en: HIJMS Kongo
+  type_name: "金剛型"
+  place_name: "台湾沖"
+  latitude: '25.9390983'
+  longitude: '121.5729263'
+  classification_id: '1'
+  cause_id: '4'
+  sunk_at: "1944/11/21 05:24:00 JST"
+- id: '28'
+  name_ja: "浦風"
+  name_en: HIJMS Urakaze
+  type_name: "陽炎型"
+  place_name: "台湾沖"
+  latitude: '26.15'
+  longitude: '121.383333'
+  classification_id: '1'
+  cause_id: '4'
+  sunk_at: "1944/11/21 03:06:00 JST"
