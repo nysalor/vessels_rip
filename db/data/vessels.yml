@@ -279,3 +279,13 @@
   classification_id: '1'
   cause_id: '4'
   sunk_at: "1944/11/21 03:06:00 JST"
+- id: '29'
+  name_ja: "信濃"
+  name_en: HIJMS Shinano
+  type_name: "信濃型"
+  place_name: "潮岬沖"
+  latitude: '33.1'
+  longitude: '136.76666666666668'
+  classification_id: '2'
+  cause_id: '4'
+  sunk_at: "1944/11/29 10:57:00 JST"
