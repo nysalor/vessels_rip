@@ -289,3 +289,43 @@
   classification_id: '2'
   cause_id: '4'
   sunk_at: "1944/11/29 10:57:00 JST"
+- id: '30'
+  name_ja: "レパルス"
+  name_en: HMS Repulse
+  type_name: "レナウン級"
+  place_name: "マレー沖"
+  latitude: '3.57605000'
+  longitude: '104.29628333'
+  classification_id: '1'
+  cause_id: '9'
+  sunk_at: "1941/12/10 14:03:00 JST"
+- id: '31'
+  name_ja: "プリンス・オブ・ウェールズ"
+  name_en: HMS Prince of Wales
+  type_name: "キング・ジョージV世級"
+  place_name: "マレー沖"
+  latitude: '3.56'
+  longitude: '104.478333'
+  classification_id: '1'
+  cause_id: '9'
+  sunk_at: "1941/12/10 14:50:00 JST"
+- id: '32'
+  name_ja: "疾風"
+  name_en: HIJMS Hayate
+  type_name: "神風型"
+  place_name: "ウェーク島沖"
+  latitude: '19.2522'
+  longitude: '166.66875'
+  classification_id: '5'
+  cause_id: '10'
+  sunk_at: "1941/12/11 4:03:00 JST"
+- id: '33'
+  name_ja: "如月"
+  name_en: HIJMS Kisaragi
+  type_name: "睦月型"
+  place_name: "ウェーク島沖"
+  latitude: '18.98596666'
+  longitude: '166.27410000'
+  classification_id: '5'
+  cause_id: '9'
+  sunk_at: "1941/12/11 5:42:00 JST"

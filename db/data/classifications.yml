@@ -25,3 +25,6 @@
 - id: 9
   name_ja: "潜水艦"
   name_en: "Submarine"
+- id: 10
+  name_ja: "巡洋戦艦"
+  name_en: "Battlecruiser"

@@ -14,3 +14,7 @@
   description: "砲撃処分"
 - id: 8
   description: "雷撃処分"
+- id: 9
+  description: "陸上機の攻撃"
+- id: 10
+  description: "陸上からの砲撃"
