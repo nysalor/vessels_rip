@@ -79,7 +79,8 @@ class Vessel < ActiveRecord::Base
       place: place_name,
       latitude: latitude,
       longitude: longitude,
-      cause: cause.description
+      cause: cause.description,
+      link: map_url
     }
   end
 
@@ -93,11 +94,5 @@ class Vessel < ActiveRecord::Base
 
   def has_location?
     latitude.present? && longitude.present?
-  end
-
-  def latitude_dms
-  end
-
-  def longitude_dms
   end
 end
