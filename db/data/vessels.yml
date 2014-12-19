@@ -329,3 +329,13 @@
   classification_id: '5'
   cause_id: '9'
   sunk_at: "1941/12/11 5:42:00 JST"
+- id: '34'
+  name_ja: "雲龍"
+  name_en: HIJMS Unryu
+  type_name: "雲龍型"
+  place_name: "東シナ海"
+  latitude: '29.983333'
+  longitude: '124.05'
+  classification_id: '2'
+  cause_id: '4'
+  sunk_at: "1944/12/19 16:57:00 JST"
