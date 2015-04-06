@@ -339,3 +339,63 @@
   classification_id: '2'
   cause_id: '4'
   sunk_at: "1944/12/19 16:57:00 JST"
+- id: '35'
+  name_ja: "大和"
+  name_en: HIJMS Yamato
+  type_name: "大和型"
+  place_name: "坊ノ岬沖"
+  latitude: '30.366667'
+  longitude: '128.066667'
+  classification_id: '1'
+  cause_id: '3'
+  sunk_at: "1945/04/07 14:23:00 JST"
+- id: '36'
+  name_ja: "矢矧"
+  name_en: HIJMS Yahagi
+  type_name: "阿賀野型"
+  place_name: "坊ノ岬沖"
+  latitude: '30.783333'
+  longitude: '128.133333'
+  classification_id: '4'
+  cause_id: '3'
+  sunk_at: "1945/04/07 14:05:00 JST"
+- id: '37'
+  name_ja: "磯風"
+  name_en: HIJMS Isokaze
+  type_name: "陽炎型"
+  place_name: "坊ノ岬沖"
+  latitude: '30.768056'
+  longitude: '128.150556'
+  classification_id: '5'
+  cause_id: '7'
+  sunk_at: "1945/04/07 22:40:00 JST"
+- id: '38'
+  name_ja: "浜風"
+  name_en: HIJMS Hamakaze
+  type_name: "陽炎型"
+  place_name: "坊ノ岬沖"
+  latitude: '30.783333'
+  longitude: '128.133333'
+  classification_id: '5'
+  cause_id: '3'
+  sunk_at: "1945/04/07 12:48:00 JST"
+- id: '39'
+  name_ja: "朝霜"
+  name_en: HIJMS Asashimo
+  type_name: "夕雲型"
+  place_name: "坊ノ岬沖"
+  latitude: '31'
+  longitude: '128'
+  classification_id: '5'
+  cause_id: '3'
+  sunk_at: "1945/04/07 12:21:00 JST"
+- id: '40'
+  name_ja: "霞"
+  name_en: HIJMS Kasumi
+  type_name: "朝潮型"
+  place_name: "坊ノ岬沖"
+  latitude: '30.85'
+  longitude: '127.95'
+  classification_id: '5'
+  cause_id: '7'
+  sunk_at: "1945/04/07 16:57:00 JST"
