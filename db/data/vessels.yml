@@ -399,3 +399,53 @@
   classification_id: '5'
   cause_id: '7'
   sunk_at: "1945/04/07 16:57:00 JST"
+- id: '41'
+  name_ja: "赤城"
+  name_en: HIJMS Akagi
+  type_name: "同型艦無し"
+  place_name: "ミッドウェー海域"
+  latitude: '30.5'
+  longitude: '-178.666666666666666'
+  classification_id: '2'
+  cause_id: '8'
+  sunk_at: "1942/06/06 02:10:00 JST"
+- id: '42'
+  name_ja: "加賀"
+  name_en: HIJMS Kaga
+  type_name: "同型艦無し"
+  place_name: "ミッドウェー海域"
+  latitude: '30.333333'
+  longitude: '-179.283333'
+  classification_id: '2'
+  cause_id: '3'
+  sunk_at: "1942/06/04 16:26:00 JST"
+- id: '43'
+  name_ja: "蒼龍"
+  name_en: HIJMS Soryu
+  type_name: "同型艦無し"
+  place_name: "ミッドウェー海域"
+  latitude: '30.701389'
+  longitude: '-178.618056'
+  classification_id: '2'
+  cause_id: '3'
+  sunk_at: "1942/06/04 16:13:00 JST"
+- id: '44'
+  name_ja: "飛龍"
+  name_en: HIJMS Hiryu
+  type_name: "同型艦無し"
+  place_name: "ミッドウェー海域"
+  latitude: '31.451389'
+  longitude: '179.384722'
+  classification_id: '2'
+  cause_id: '8'
+  sunk_at: "1942/06/06 06:15:00 JST"
+- id: '45'
+  name_ja: "三隈"
+  name_en: HIJMS Mikuma
+  type_name: "最上型"
+  place_name: "ミッドウェー海域"
+  latitude: ''
+  longitude: ''
+  classification_id: '3'
+  cause_id: '3'
+  sunk_at: "1942/06/04 16:13:00 JST"
