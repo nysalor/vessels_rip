@@ -418,7 +418,7 @@
   longitude: '-179.283333'
   classification_id: '2'
   cause_id: '3'
-  sunk_at: "1942/06/04 16:26:00 JST"
+  sunk_at: "1942/06/05 16:26:00 JST"
 - id: '43'
   name_ja: "蒼龍"
   name_en: HIJMS Soryu
@@ -428,7 +428,7 @@
   longitude: '-178.618056'
   classification_id: '2'
   cause_id: '3'
-  sunk_at: "1942/06/04 16:13:00 JST"
+  sunk_at: "1942/06/05 16:13:00 JST"
 - id: '44'
   name_ja: "飛龍"
   name_en: HIJMS Hiryu
@@ -444,8 +444,8 @@
   name_en: HIJMS Mikuma
   type_name: "最上型"
   place_name: "ミッドウェー海域"
-  latitude: ''
-  longitude: ''
+  latitude: '29.333333'
+  longitude: '173.5'
   classification_id: '3'
   cause_id: '3'
-  sunk_at: "1942/06/04 16:13:00 JST"
+  sunk_at: "1942/06/05 16:13:00 JST"
