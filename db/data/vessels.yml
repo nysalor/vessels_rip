@@ -449,3 +449,33 @@
   classification_id: '3'
   cause_id: '3'
   sunk_at: "1942/06/05 16:13:00 JST"
+- id: '46'
+  name_ja: "大鳳"
+  name_en: HIJMS Taiho
+  type_name: "大鳳型"
+  place_name: "マリアナ沖"
+  latitude: '12.083333'
+  longitude: '137.2'
+  classification_id: '2'
+  cause_id: '4'
+  sunk_at: "1944/06/19 16:28:00 JST"
+- id: '47'
+  name_ja: "翔鶴"
+  name_en: HIJMS Shokaku
+  type_name: "翔鶴型"
+  place_name: "マリアナ沖"
+  latitude: '11.666667'
+  longitude: '137.666667'
+  classification_id: '2'
+  cause_id: '4'
+  sunk_at: "1944/06/19 14:01:00 JST"
+- id: '48'
+  name_ja: "飛鷹"
+  name_en: HIJMS Hiyo
+  type_name: "飛鷹型"
+  place_name: "マリアナ沖"
+  latitude: '15.5'
+  longitude: '133.833333'
+  classification_id: '2'
+  cause_id: '3'
+  sunk_at: "1944/06/20 19:32:00 JST"
